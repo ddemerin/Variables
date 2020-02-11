@@ -22,9 +22,10 @@ namespace Variables
      var user = Console.ReadLine();
      //Print out greeting with user's name
      if (user == "Alice") {
-       Console.WriteLine("Welcome to Wonderland, Alice!");
-     }
+       Console.WriteLine("Welcome to Wonderland, " + user + "!");
+     } else {
      Console.WriteLine("Nice to meet you " + user + "!");
+     }
      //Ask user to input two numbers
      Console.WriteLine("Pick a number between 1 and 50.");
      var firstNumber = Console.ReadLine();
